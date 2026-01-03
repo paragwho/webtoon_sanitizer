@@ -15,6 +15,14 @@ Perfect if you want an offline, distraction-free reading experience.
 
 No scraping Webtoon directly — it works on pages you’ve already downloaded.
 
+## Setup
+Clone the repository and install dependencies:
+```
+git clone https://github.com/paragwho/webtoon_sanitizer.git
+cd webtoon-sanitizer
+pip install .
+```
+
 ## How to use
 Step-by-step
 1.  Open the episode(s) in a desktop browser
@@ -41,8 +49,10 @@ Step-by-step
     - Open [config.toml](src/config.toml)
     - Set the path to your master folder
 
-6.  Run the script `python main.py`
-
+6.  Run the script
+    ```
+    python main.py
+    ```
     **IMPORTANT**:
     
     The script deletes the original HTML and asset files and replaces them with sanitized output. Back up your data if you want to keep the originals.
@@ -72,11 +82,11 @@ folder
 ### Keyboard shortcuts
 | Key         | Action                  |
 |-------------|-------------------------|
-| ↑ ↓         | scroll                  |
-| ← →         | previous / next episode |
-| Home / End  | jump to top / bottom    |
-| D           | toggle dark mode        |
-| S           | toggle smooth scrolling |
+| ↑ / ↓       | Scroll                  |
+| ← / →       | Previous / Next Episode |
+| Home / End  | Jump to Top / Bottom    |
+| D           | Toggle Dark Mode        |
+| S           | Toggle Smooth Scrolling |
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
