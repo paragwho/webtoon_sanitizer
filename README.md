@@ -61,12 +61,12 @@ Step-by-step
 ```
 master/
 ├─ EP1_files/
-│ ├─ 001.png
-│ ├─ 002.png
+│ ├─ 001.jpg
+│ ├─ 002.jpg
 │ └─ …
 ├─ EP2_files/
-│ ├─ 001.png
-│ ├─ 002.png
+│ ├─ 001.jpg
+│ ├─ 002.jpg
 │ └─ …
 ```
 - Only panel images remain
